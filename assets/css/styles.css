@@ -784,7 +784,7 @@ img {
   right: -.5rem;
 }
 
-.swiper-container-horizantal > .swiper-pagination-bullet{
+.swiper-container-horizontal > .swiper-pagination-bullets{
   bottom: -2.5rem;
 }
 
@@ -942,7 +942,7 @@ img {
   font-size: var(--small-font-size);
 }
 
-.footer__links{
+.footer__link{
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -964,7 +964,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: black;
   margin-top: var(--mb-3);
 }
 
