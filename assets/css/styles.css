@@ -1023,7 +1023,7 @@ img {
 @media screen and (max-width: 350px) {
   .container{
     margin-left: var(--mb-1);
-    marging-right: var(--mb-1);
+    margin-right: var(--mb-1);
   }
   .nav__menu{
     padding: 2rem .25rem 4rem;
@@ -1038,7 +1038,7 @@ img {
   }
   
   .home__blob{
-    width: 100px;
+    width: 180px;
   }
 
   .skills__title{
@@ -1084,7 +1084,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 568px) {
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
