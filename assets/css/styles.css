@@ -303,7 +303,8 @@ img {
 }
 
 .home__blob-img{
-  width: 170px;
+  width: 86%;
+  height: 93%;
 }
 
 .home__data{
@@ -332,6 +333,7 @@ img {
 .home__scroll-button{
   color: var(--first-color);
   transition: .3s;
+  display: none;
 }
 
 .home__scroll-button:hover{
@@ -340,6 +342,7 @@ img {
 
 .home__scroll-mouse{
   font-size: 2rem;
+  display: none;
 }
 
 .home__scroll-name{
@@ -347,10 +350,12 @@ img {
   color: var(--title-color);
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
+  display: none;
 }
 
 .home__scroll-arrow{
   font-size: 1.25rem;
+  display: none;
 
 }
 
@@ -824,7 +829,7 @@ img {
 }
 
 .project__img{
-  width: 232px;
+
   justify-self: center;
 }
 
