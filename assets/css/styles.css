@@ -829,8 +829,14 @@ img {
 }
 
 .project__img{
-
   justify-self: center;
+  height: 248px;
+  width: 211px;
+  border-radius: 18px;
+  margin-bottom: 1rem;
+  position: relative;
+  left: 1rem;
+  bottom: 0.8rem;
 }
 
 /*==================== TESTIMONIAL ====================*/
