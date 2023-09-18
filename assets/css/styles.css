@@ -1074,7 +1074,14 @@ img {
   }
 
   .project__img{
-    width: 200px;
+    justify-self: center;
+    height: 248px;
+    width: 211px;
+    border-radius: 18px;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 0.8rem;
+    left: 5rem;
   }
 
   .testimonial__data,
@@ -1095,7 +1102,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 500px) {
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1107,6 +1114,17 @@ img {
   .home__img{
     order: 1;
     justify-self: center;
+  }
+
+  .project__img{
+    justify-self: center;
+    height: 248px;
+    width: 211px;
+    border-radius: 18px;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 0.8rem;
+    left: -0.2rem;
   }
 
   .about__container,
