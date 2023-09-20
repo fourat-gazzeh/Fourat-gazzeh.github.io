@@ -366,6 +366,7 @@ img {
   color: #fff;
   padding: 1rem;
   border-radius: .5rem;
+  border: none;
   font-weight: var(--font-medium);
 }
 
